@@ -37,4 +37,6 @@ La **Opcion 5** sera la que te de la posibilidad de crear, si usted lo desea, el
 
 La **Opcion 6** revisara si usted creo el archivo o no, si no lo ha creado no podra utilizar esta opcion de buena manera, pero si ya anteriormente a creado el archivo, esta opcion se encargara de ingresar el texto que usted nos indico en la consola.
 
+Tambien ahora sera necesario otro archivo llamado **MenuOpciones.txt** el cual sera el encargado de poder mostrar las opciones.
 
+Este tendra el numero de la opcion, lo que realizara la opcion y un numero encargado de verificar que la opcion tiene el permiso del usuario seleccionado.
