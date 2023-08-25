@@ -13,7 +13,9 @@ En esta estructura, cada línea representa un usuario seguido de una serie de n�
 
 Para poder ejecutar este código, primero debemos compilarlo. Un ejemplo de cómo hacerlo es ejecutando el siguiente comando en la terminal:
 
-```make```.
+```make```  
+
+Donde sera necesario que tenga el archivo Makefile, sin este el comando anteriormente brindado no tendra utilidad alguna.
 
 Una vez que el código esté compilado, para ejecutarlo será necesario proporcionar una entrada desde la consola que cumpla con el siguiente formato:
 
@@ -31,6 +33,13 @@ En la pantalla se veran las opciones disponibles, si intenta ingresar una opcion
 
 # Update
 
+Ahora podra ver a detalle las funciones que fueron implementadas durante la creacion de este codigo, donde sera necesario que usted tenga aparte del codigo main **app.cpp**, los siguientes archivos: 
+
+**funciones.cpp**
+**funciones.h**
+
+Gracias a esto, el codigo estara mucho mas agradable a la vista, donde podra revisar las funciones utilizadas en el archivo funciones.cpp
+
 Se han introducido nuevas funcionalidades en el menú, brindándote mayor control sobre tu experiencia. **Ahora puedes finalizar el menú en cualquier momento seleccionando la opción 0.** Esto te permite permanecer en el menú durante el tiempo que desees, eligiendo entre las distintas opciones disponibles.
 
 La **Opcion 5** sera la que te de la posibilidad de crear, si usted lo desea, el archivo txt que ingreso desde la consola.
@@ -40,3 +49,9 @@ La **Opcion 6** revisara si usted creo el archivo o no, si no lo ha creado no po
 Tambien ahora sera necesario otro archivo llamado **MenuOpciones.txt** el cual sera el encargado de poder mostrar las opciones.
 
 Este tendra el numero de la opcion, lo que realizara la opcion y un numero encargado de verificar que la opcion tiene el permiso del usuario seleccionado.
+
+# Caracteristicas del menu
+
+$$
+Cuando usted ingrese a lo más de 5 opciones de las que estan disponibles, la consola sera limpiada, para que usted pueda ver las opciones de menu nuevamente.
+$$

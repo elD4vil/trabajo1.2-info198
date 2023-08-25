@@ -1,18 +1,15 @@
-CXX = g++
-CXXFLAGS = -std=c++11
+CC = g++
+CFLAGS = -Wall -std=c++11
 
-SRCS = app.cpp
-OBJS = $(SRCS:.cpp=.o)
-EXEC = app
+SOURCES = app.cpp funciones.cpp
+HEADERS = funciones.h
+EXECUTABLE = app
 
-all: $(EXEC)
+all: $(EXECUTABLE)
 
-$(EXEC): $(OBJS)
-	$(CXX) $(CXXFLAGS) $(OBJS) -o $(EXEC)
-
-%.o: %.cpp
-	$(CXX) $(CXXFLAGS) -c $< -o $@
+$(EXECUTABLE): $(SOURCES) $(HEADERS)
+	$(CC) $(CFLAGS) $(SOURCES) -o $@
 
 clean:
-	rm -f $(OBJS) $(EXEC)
+	rm -rf $(EXECUTABLE)
 
