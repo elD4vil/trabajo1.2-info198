@@ -51,7 +51,3 @@ La **opción 7** servirá para limpiar la consola y te mostrará el menú nuevam
 También ahora se necesitará otro archivo llamado "MenuOpciones.txt", el cual se encargará de mostrar las opciones.
 
 Este archivo contendrá el número de la opción, una descripción de lo que hace la opción y un número que verificará si el usuario seleccionado tiene permiso para usar esa opción.
-
-# Caracteristicas del menu
-
-Cuando usted ingrese a lo más de **5** opciones de las que estan disponibles, la consola sera limpiada, para que usted pueda ver las opciones de menu nuevamente.
