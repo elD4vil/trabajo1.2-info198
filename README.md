@@ -52,6 +52,4 @@ Este tendra el numero de la opcion, lo que realizara la opcion y un numero encar
 
 # Caracteristicas del menu
 
-$$
-Cuando usted ingrese a lo más de 5 opciones de las que estan disponibles, la consola sera limpiada, para que usted pueda ver las opciones de menu nuevamente.
-$$
+Cuando usted ingrese a lo más de **5** opciones de las que estan disponibles, la consola sera limpiada, para que usted pueda ver las opciones de menu nuevamente.
