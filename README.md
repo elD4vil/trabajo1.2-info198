@@ -33,24 +33,24 @@ En la pantalla se veran las opciones disponibles, si intenta ingresar una opcion
 
 # Update
 
-Ahora podra ver a detalle las funciones que fueron implementadas durante la creacion de este codigo, donde sera necesario que usted tenga aparte del codigo main **app.cpp**, los siguientes archivos: 
+Ahora podrás ver en detalle las funciones que fueron implementadas durante la creación de este código. Además del código principal "app.cpp", necesitarás los siguientes archivos:
 
-**funciones.cpp**
-**funciones.h**
+**"funciones.cpp"**
+**"funciones.h"**
 
-Gracias a esto, el codigo estara mucho mas agradable a la vista, donde podra revisar las funciones utilizadas en el archivo funciones.cpp
+Gracias a esto, el código será mucho más legible, y podrás revisar las funciones utilizadas en "funciones.cpp".
 
-Se han introducido nuevas funcionalidades en el menú, brindándote mayor control sobre tu experiencia. **Ahora puedes finalizar el menú en cualquier momento seleccionando la opción 0.** Esto te permite permanecer en el menú durante el tiempo que desees, eligiendo entre las distintas opciones disponibles.
+Se han introducido nuevas funcionalidades en el menú, brindándote mayor control sobre tu experiencia. Ahora puedes finalizar el menú en cualquier momento seleccionando la **opción 0**. Esto te permite permanecer en el menú durante el tiempo que desees, eligiendo entre las distintas opciones disponibles.
 
-La **Opcion 5** sera la que te de la posibilidad de crear, si usted lo desea, el archivo txt que ingreso desde la consola.
+La **opción 5** te dará la posibilidad de crear, si lo deseas, el archivo txt que ingresaste desde la consola.
 
-La **Opcion 6** revisara si usted creo el archivo o no, si no lo ha creado no podra utilizar esta opcion de buena manera, pero si ya anteriormente a creado el archivo, esta opcion se encargara de ingresar el texto que usted nos indico en la consola.
+La **opción 6** verificará si has creado el archivo o no. Si no lo has creado, no podrás utilizar esta opción de manera adecuada. Si ya habías creado el archivo anteriormente, esta opción se encargará de ingresar el texto que indicaste en la consola.
 
-La **Opcion 7** sera para limpiar la consola, donde le mostrara el menu nuevamente.
+La **opción 7** servirá para limpiar la consola y te mostrará el menú nuevamente.
 
-Tambien ahora sera necesario otro archivo llamado **MenuOpciones.txt** el cual sera el encargado de poder mostrar las opciones.
+También ahora se necesitará otro archivo llamado "MenuOpciones.txt", el cual se encargará de mostrar las opciones.
 
-Este tendra el numero de la opcion, lo que realizara la opcion y un numero encargado de verificar que la opcion tiene el permiso del usuario seleccionado.
+Este archivo contendrá el número de la opción, una descripción de lo que hace la opción y un número que verificará si el usuario seleccionado tiene permiso para usar esa opción.
 
 # Caracteristicas del menu
 
